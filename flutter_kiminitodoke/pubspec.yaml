@@ -1,0 +1,176 @@
+name: flutter_kiminitodoke
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  date_format: ^1.0.4
+  flutter_screenutil: ^0.3.0
+  carousel_slider: ^0.0.7  # 轮播
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+
+=======
+  flute_music_player: ^0.0.6
+  video_player: ^0.10.0+8
+  path_provider: ^0.4.1
+  jaguar_cache: ^2.1.2
+  chewie: ^0.9.7
+>>>>>>> flutter_kiminitodoke
+>>>>>>> flutter_kiminitodoke
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   #  loading
+   - images/loading/01.jpg
+   - images/loading/02.jpg
+   - images/loading/03.jpg
+   - images/loading/04.jpg
+   - images/loading/05.jpg
+   # icon
+   - images/icon/sawako.jpg
+   - images/icon/flower.png
+   - images/icon/code.png
+   #  cast
+   - images/cast/sawako.png
+   - images/cast/sawako.gif
+   - images/cast/kazehaya.png
+   - images/cast/kazehaya.gif
+   - images/cast/ryu.png
+   - images/cast/ryu.gif
+   - images/cast/chizuru.png
+   - images/cast/chizuru.gif
+   - images/cast/ayane.png
+   - images/cast/ayane.gif
+   - images/cast/kurumi.png
+   - images/cast/kurumi.gif
+   - images/cast/kento.png
+   - images/cast/kento.gif
+   - images/cast/arai.png
+   - images/cast/arai.gif
+   # story
+   # 01
+   - images/story/01/cover.jpg
+   - images/story/01/01.jpg
+   - images/story/01/02.jpg
+   - images/story/01/03.jpg
+   - images/story/01/04.jpg
+   - images/story/01/05.jpg
+   - images/story/01/06.jpg
+   # 02
+   - images/story/02/cover.jpg
+   - images/story/02/01.jpg
+   - images/story/02/02.jpg
+   - images/story/02/03.jpg
+   - images/story/02/04.jpg
+   - images/story/02/05.jpg
+   - images/story/02/06.jpg
+   - images/story/03/cover.jpg
+   - images/story/04/cover.jpg
+   - images/story/05/cover.jpg
+   - images/story/06/cover.jpg
+   - images/story/07/cover.jpg
+   - images/story/08/cover.jpg
+   - images/story/09/cover.jpg
+   - images/story/10/cover.jpg
+   - images/story/11/cover.jpg
+   - images/story/12/cover.jpg
+   - images/story/13/cover.jpg
+   - images/story/14/cover.jpg
+   - images/story/15/cover.jpg
+   - images/story/16/cover.jpg
+   - images/story/17/cover.jpg
+   - images/story/18/cover.jpg
+   - images/story/19/cover.jpg
+   - images/story/20/cover.jpg
+   - images/story/21/cover.jpg
+   - images/story/22/cover.jpg
+   - images/story/23/cover.jpg
+   - images/story/24/cover.jpg
+   - images/story/25/cover.jpg
+   # bg
+   - images/bg/flower_one.jpg
+   # goods
+   - images/goods/book.jpg
+   - images/goods/curtain.jpg
+   - images/goods/cos.jpg
+   - images/goods/cup.jpg
+   - images/goods/key.jpg
+   - images/goods/mangga.jpg
+   - images/goods/phone.jpg
+   - images/goods/pillow.jpg
+   - images/goods/watch.jpg
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+   # singles
+   - images/singles/01.jpg
+   - images/singles/02.jpg
+   - images/singles/03.jpg
+   - images/singles/04.jpg
+   # vider
+   - videos/01.MP4
+>>>>>>> flutter_kiminitodoke
+>>>>>>> flutter_kiminitodoke
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
