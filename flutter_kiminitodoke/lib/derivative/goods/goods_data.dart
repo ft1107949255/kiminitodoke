@@ -16,15 +16,7 @@ class GoodsData {
   //price
   String price;
 
-<<<<<<< HEAD
-  GoodsData( this.id, this.avatar, this.name, this.price, this.description);
-=======
-<<<<<<< HEAD
-  GoodsData( this.id, this.avatar, this.name, this.price, this.description);
-=======
   GoodsData( this.id, this.avatar, this.name, this.description, this.price, );
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
 }
 
 

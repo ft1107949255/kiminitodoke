@@ -2,14 +2,7 @@ import 'package:flutter/material.dart';
 import 'story_data.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 import 'video_player_item.dart';
-
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
 //import 'dart:math';
 class StoryContent extends StatefulWidget {
   final StoryData story;
@@ -22,15 +15,6 @@ class _StoryContent extends State<StoryContent> {
   // 获取参数story
   final StoryData story;
   _StoryContent(this.story);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-
-
-//  _StoryContent(this.controller);
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
   String  number = '124';
   String  defaultIcon = '0';
   void main() {
@@ -134,10 +118,6 @@ class _StoryContent extends State<StoryContent> {
                     new Text(
                       number.toString(),
                     ),
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
                     new Container(
                       width: 30.0,
                       height: 30.0,
@@ -161,8 +141,6 @@ class _StoryContent extends State<StoryContent> {
 
                       ),
                     )
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
                   ],
               ),
             )

@@ -7,15 +7,7 @@ packages:
       name: async
       url: "https://pub.flutter-io.cn"
     source: hosted
-<<<<<<< HEAD
-    version: "2.0.8"
-=======
-<<<<<<< HEAD
-    version: "2.0.8"
-=======
     version: "2.1.0"
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
   boolean_selector:
     dependency: transitive
     description:
@@ -37,10 +29,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.1.2"
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
   chewie:
     dependency: "direct main"
     description:
@@ -48,8 +36,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.9.7"
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
   collection:
     dependency: transitive
     description:
@@ -71,10 +57,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.6"
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
   flute_music_player:
     dependency: "direct main"
     description:
@@ -82,13 +64,18 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.0.6"
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
   flutter:
     dependency: "direct main"
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_inner_drawer:
+    dependency: "direct main"
+    description:
+      name: flutter_inner_drawer
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.2.6"
   flutter_screenutil:
     dependency: "direct main"
     description:
@@ -96,15 +83,18 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.3.1"
+  flutter_spinkit:
+    dependency: "direct main"
+    description:
+      name: flutter_spinkit
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "3.1.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
     source: sdk
     version: "0.0.0"
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
   jaguar_cache:
     dependency: "direct main"
     description:
@@ -112,23 +102,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.1.2"
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
   matcher:
     dependency: transitive
     description:
       name: matcher
       url: "https://pub.flutter-io.cn"
     source: hosted
-<<<<<<< HEAD
-    version: "0.12.3+1"
-=======
-<<<<<<< HEAD
-    version: "0.12.3+1"
-=======
     version: "0.12.5"
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
   meta:
     dependency: transitive
     description:
@@ -136,10 +116,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.1.6"
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
   open_iconic_flutter:
     dependency: transitive
     description:
@@ -147,8 +123,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.3.0"
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
   path:
     dependency: transitive
     description:
@@ -156,10 +130,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.6.2"
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
   path_provider:
     dependency: "direct main"
     description:
@@ -167,35 +137,19 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.4.1"
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
   pedantic:
     dependency: transitive
     description:
       name: pedantic
       url: "https://pub.flutter-io.cn"
     source: hosted
-<<<<<<< HEAD
-    version: "1.4.0"
-=======
-<<<<<<< HEAD
-    version: "1.4.0"
-=======
     version: "1.5.0"
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
   quiver:
     dependency: transitive
     description:
       name: quiver
       url: "https://pub.flutter-io.cn"
     source: hosted
-<<<<<<< HEAD
-    version: "2.0.1"
-=======
-<<<<<<< HEAD
-    version: "2.0.1"
-=======
     version: "2.0.2"
   screen:
     dependency: transitive
@@ -204,8 +158,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.0.5"
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
   sky_engine:
     dependency: transitive
     description: flutter
@@ -217,15 +169,7 @@ packages:
       name: source_span
       url: "https://pub.flutter-io.cn"
     source: hosted
-<<<<<<< HEAD
-    version: "1.5.4"
-=======
-<<<<<<< HEAD
-    version: "1.5.4"
-=======
     version: "1.5.5"
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
   stack_trace:
     dependency: transitive
     description:
@@ -239,15 +183,7 @@ packages:
       name: stream_channel
       url: "https://pub.flutter-io.cn"
     source: hosted
-<<<<<<< HEAD
-    version: "1.6.8"
-=======
-<<<<<<< HEAD
-    version: "1.6.8"
-=======
     version: "2.0.0"
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
   string_scanner:
     dependency: transitive
     description:
@@ -268,15 +204,7 @@ packages:
       name: test_api
       url: "https://pub.flutter-io.cn"
     source: hosted
-<<<<<<< HEAD
-    version: "0.2.2"
-=======
-<<<<<<< HEAD
-    version: "0.2.2"
-=======
     version: "0.2.4"
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
   typed_data:
     dependency: transitive
     description:
@@ -291,23 +219,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.0.8"
-<<<<<<< HEAD
-sdks:
-  dart: ">=2.1.0 <3.0.0"
-=======
-<<<<<<< HEAD
-sdks:
-  dart: ">=2.1.0 <3.0.0"
-=======
   video_player:
     dependency: "direct main"
     description:
       name: video_player
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "0.10.0+8"
+    version: "0.10.1"
 sdks:
   dart: ">=2.2.0 <3.0.0"
   flutter: ">=0.2.5 <2.0.0"
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke

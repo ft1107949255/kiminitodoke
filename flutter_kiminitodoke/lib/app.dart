@@ -2,16 +2,23 @@ import 'package:flutter/material.dart';
 import 'cast/cast.dart';
 import 'story/story.dart';
 import 'derivative/derivative.dart';
-void main() => runApp(App());
+void main() => runApp(App(page: 0));
 
 class App extends StatefulWidget {
+  App({Key key, this.page}) : super(key: key);
+  final int page;
   @override
-  _MyApp  createState() => new _MyApp();
+  _MyApp  createState() => new _MyApp(this.page);
 }
 
 class _MyApp extends State<App> {
+  final int page;
+  var _currentIndex;
+  _MyApp(this.page) {
+    _currentIndex  = this.page;
+  }
+
   // 当前选中页索引
-  var _currentIndex  = 0;
   currentPage() {
     switch (_currentIndex) {
       case 0:

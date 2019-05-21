@@ -21,17 +21,11 @@ class ImItem extends StatelessWidget {
             // 跳转到好友动态页面
             Navigator.pushNamed(context, '/goods');
             break;
-<<<<<<< HEAD
           case '联系客服':
-=======
-<<<<<<< HEAD
-          case '联系客服':
-=======
+            break;
           case 'ミュージック':
           // 跳转到单曲页面
             Navigator.pushNamed(context, '/singles');
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
             break;
         }
       },

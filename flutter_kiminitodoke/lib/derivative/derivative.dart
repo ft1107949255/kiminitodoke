@@ -1,19 +1,8 @@
 import 'package:flutter/material.dart';
 import '../common/touch_callback.dart';
 import '../common/icon_item.dart';
-<<<<<<< HEAD
 
-// 我的页面
-class Derivative extends StatelessWidget {
-=======
-<<<<<<< HEAD
-
-// 我的页面
-class Derivative extends StatelessWidget {
-=======
 import 'package:jaguar_cache/jaguar_cache.dart';
-
-
 
 // 我的页面
 class Derivative extends StatelessWidget {
@@ -30,8 +19,6 @@ class Derivative extends StatelessWidget {
       account = '';
     }
   }
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -59,58 +46,27 @@ class Derivative extends StatelessWidget {
                     ),
                     // 用户名及账号显示
                     Expanded(
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> flutter_kiminitodoke
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: <Widget>[
-                          Text(
-                            'ただ爽子のFANだけど',
-<<<<<<< HEAD
-=======
-=======
                       child: account != ''? Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: <Widget>[
                          new Text(
                             username,
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
                             style: TextStyle(
                               fontSize: 18.0,
                               color: Color(0xFF353535),
                             ),
                           ),
                           Text(
-<<<<<<< HEAD
-                            'アカウント fengshuangzi520',
-=======
-<<<<<<< HEAD
-                            'アカウント fengshuangzi520',
-=======
                           'アカウント:'+  account,
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
                             style: TextStyle(
                               fontSize: 14.0,
                               color: Color(0xFFa9a9a9),
                             ),
                           ),
                         ],
-<<<<<<< HEAD
+                      ): new Text('请登录'),
                       ),
-=======
-<<<<<<< HEAD
-                      ),
-=======
-                      ) : new Text('请登录'),
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
-                    ),
                     // 二维码图片显示
                     Container(
                         margin: const EdgeInsets.only(left: 12.0, right: 15.0),
@@ -121,19 +77,11 @@ class Derivative extends StatelessWidget {
                         )),
                   ],
                 ),
-<<<<<<< HEAD
-                onPressed: () {},
-=======
-<<<<<<< HEAD
-                onPressed: () {},
-=======
                 onPressed: () {
                   username == ''?
                   Navigator.pushNamed(context, '/login')
                   : print('已登录');
                 },
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
               )),
           // 列表项
           Container(

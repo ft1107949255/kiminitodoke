@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 
 // 触摸回调组件
 
-class TouchCallBack extends StatefulWidget{
-
+class TouchCallBack extends StatefulWidget {
   // 子组件
   final Widget child;
 
@@ -15,15 +14,15 @@ class TouchCallBack extends StatefulWidget{
   final Color background;
 
   // 传入参数列表
-  TouchCallBack({Key key,
+  TouchCallBack({
+    Key key,
     @required this.child,
     @required this.onPressed,
-    this.isfeed:true,
-    this.background:const Color(0xffd8d8d8),
-  }):super(key: key);
+    this.isfeed: true,
+    this.background: const Color(0xffd8d8d8),
+  }) : super(key: key);
   @override
   TouchState createState() => TouchState();
-
 }
 
 class TouchState extends State<TouchCallBack> {

@@ -26,19 +26,13 @@ dependencies:
   date_format: ^1.0.4
   flutter_screenutil: ^0.3.0
   carousel_slider: ^0.0.7  # 轮播
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-
-=======
   flute_music_player: ^0.0.6
   video_player: ^0.10.0+8
   path_provider: ^0.4.1
   jaguar_cache: ^2.1.2
   chewie: ^0.9.7
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
+  flutter_spinkit: ^3.1.0
+  flutter_inner_drawer: "^0.2.2"
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -136,10 +130,6 @@ flutter:
    - images/goods/phone.jpg
    - images/goods/pillow.jpg
    - images/goods/watch.jpg
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
    # singles
    - images/singles/01.jpg
    - images/singles/02.jpg
@@ -147,8 +137,6 @@ flutter:
    - images/singles/04.jpg
    # vider
    - videos/01.MP4
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
 

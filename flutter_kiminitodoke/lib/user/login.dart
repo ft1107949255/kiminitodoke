@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-
+import 'register.dart';
+import '../derivative/derivative.dart';
+import '../app.dart';
 class MyLogin extends StatefulWidget {
   @override
   __MyLogin createState() => new __MyLogin();
@@ -18,12 +20,12 @@ class __MyLogin extends State<MyLogin> {
             builder: (context) => AlertDialog(
                   title: Text('请输入用户名'),
                 ));
-      } else if(pwd.text.length == 0) {
+      } else if (pwd.text.length == 0) {
         showDialog(
             context: context,
             builder: (context) => AlertDialog(
-              title: Text('请输入密码'),
-            ));
+                  title: Text('请输入密码'),
+                ));
       } else {
         // 开始登陆
         print('登录');
@@ -36,7 +38,11 @@ class __MyLogin extends State<MyLogin> {
         leading: IconButton(
             icon: Icon(Icons.arrow_back),
             onPressed: () {
-              Navigator.pop(context); // 返回
+//              Navigator.pop(context); // 返回
+
+              Navigator.push(context, new MaterialPageRoute(builder: (BuildContext context){
+                return new App(page: 2);
+              }));
             }),
         title: new Text('登录'),
       ),
@@ -85,6 +91,7 @@ class __MyLogin extends State<MyLogin> {
                 ),
                 new Container(
                   child: new Row(
+                    crossAxisAlignment:CrossAxisAlignment.center,
                     children: <Widget>[
                       Expanded(
                         child: new TextField(
@@ -112,10 +119,33 @@ class __MyLogin extends State<MyLogin> {
                     ],
                   ),
                 ),
-                RaisedButton(
-                  onPressed: _login,
-                  child: Text('登录'),
-                ),
+                new Container(
+//                  alignment: Alignment.bottomLeft,
+                  margin: const EdgeInsets.only(left: 40.0),
+                  child: new Row(
+                    children: <Widget>[
+                      Expanded(
+                        child: RaisedButton(
+                          onPressed: _login,
+                          child: Text('登录'),
+                        ),
+                        flex: 2,
+                      ),
+                      Expanded(
+                        child: new GestureDetector(
+                          onTap: (){
+                            print('register');
+                            Navigator.push(context, new MaterialPageRoute(builder: (BuildContext context){
+                              return new Register();
+                            }));
+                          },
+                          child: new Text('没有账号，注册~~'),
+                        ),
+                        flex: 6,
+                      ),
+                    ],
+                  ),
+                )
               ],
             ),
           ),

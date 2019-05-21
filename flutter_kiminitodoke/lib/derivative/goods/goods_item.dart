@@ -1,12 +1,6 @@
 import 'package:flutter/material.dart';
 import 'goods_data.dart';
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
 class GoodsItem extends StatefulWidget {
   final GoodsData goods;
   GoodsItem(this.goods);
@@ -22,10 +16,6 @@ class _GoodsItem extends State<GoodsItem> {
     // TODO: implement build
     return Scaffold(
       appBar: new AppBar(
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> flutter_kiminitodoke
         leading:
         IconButton(icon: Icon(Icons.arrow_back),
             onPressed: () {
@@ -33,19 +23,7 @@ class _GoodsItem extends State<GoodsItem> {
             }
         ),
       ),
-      body: new Container(
-        child: new Column(
-          children: <Widget>[
 
-<<<<<<< HEAD
-=======
-=======
-        leading: IconButton(
-            icon: Icon(Icons.arrow_back),
-            onPressed: () {
-              Navigator.pop(context); // 返回
-            }),
-      ),
       body: new Container(
         margin: const EdgeInsets.all(10.0),
         decoration: BoxDecoration(
@@ -96,19 +74,10 @@ class _GoodsItem extends State<GoodsItem> {
                 ),
               ],
             )
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
           ],
         ),
       ),
     );
   }
-<<<<<<< HEAD
 }
-=======
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> flutter_kiminitodoke
->>>>>>> flutter_kiminitodoke
+
