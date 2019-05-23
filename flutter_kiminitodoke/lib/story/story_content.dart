@@ -101,7 +101,6 @@ class _StoryContent extends State<StoryContent> {
                       letterSpacing: 2.0,
 //                      wordSpacing: 15.0,
                   ),
-
               ),
             ),
             // 收藏

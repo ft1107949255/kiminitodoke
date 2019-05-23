@@ -26,13 +26,16 @@ dependencies:
   date_format: ^1.0.4
   flutter_screenutil: ^0.3.0
   carousel_slider: ^0.0.7  # 轮播
-  flute_music_player: ^0.0.6
+#  flute_music_player: ^0.0.6
   video_player: ^0.10.0+8
   path_provider: ^0.4.1
   jaguar_cache: ^2.1.2
   chewie: ^0.9.7
   flutter_spinkit: ^3.1.0
-  flutter_inner_drawer: "^0.2.2"
+  flutter_inner_drawer: ^0.2.2
+  charts_flutter: ^0.6.0
+  image_picker: ^0.6.0+4
+  permission_handler: ^3.0.0
 dev_dependencies:
   flutter_test:
     sdk: flutter

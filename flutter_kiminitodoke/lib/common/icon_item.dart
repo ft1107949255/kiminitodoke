@@ -27,6 +27,9 @@ class ImItem extends StatelessWidget {
           // 跳转到单曲页面
             Navigator.pushNamed(context, '/singles');
             break;
+          case '私の写真':
+            Navigator.pushNamed(context, '/photos');
+            break;
         }
       },
       child: Container(

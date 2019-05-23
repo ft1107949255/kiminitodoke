@@ -4,7 +4,7 @@ import 'app.dart';
 import 'derivative/goods/goods.dart';
 import 'derivative/singles/singles.dart';
 import 'user/login.dart';
-
+import 'user/photos.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
         '/goods': (BuildContext context) => new Goods() , //定义goods路径
         '/singles': (BuildContext context) => new Singles() , //定义goods_item路径
         '/login': (BuildContext context) => new MyLogin() , //定义login路径
+        '/photos': (BuildContext context) => new MyPthotos() , //定义photos路径
       },
       theme: PinkTheme,
       home: new LoadingPage(),
