@@ -110,7 +110,7 @@ class Derivative extends StatelessWidget {
                   ),
                   ImItem(
                     imagePath: 'images/icon/flower.png',
-                    title: 'ブログ',
+                    title: '地図',
                   ),
                   ImItem(
                     imagePath: 'images/icon/flower.png',

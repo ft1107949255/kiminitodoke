@@ -36,6 +36,9 @@ dependencies:
   charts_flutter: ^0.6.0
   image_picker: ^0.6.0+4
   permission_handler: ^3.0.0
+  amap_location: ^0.2.0
+#  simple_permissions:
+  easy_alert:
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -64,6 +67,9 @@ flutter:
    - images/icon/sawako.jpg
    - images/icon/flower.png
    - images/icon/code.png
+   - images/icon/tools.png
+   - images/icon/hat.png
+   - images/icon/socks.png
    #  cast
    - images/cast/sawako.png
    - images/cast/sawako.gif

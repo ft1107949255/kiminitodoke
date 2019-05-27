@@ -25,7 +25,6 @@ class _MyPthotos extends State<MyPthotos> {
       setState(() {
         imgList.add(_imageFile);
       });
-
     }
     print(imgList[0]);
   }

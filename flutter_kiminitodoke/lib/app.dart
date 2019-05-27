@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'cast/cast.dart';
 import 'story/story.dart';
 import 'derivative/derivative.dart';
+import 'tools/tools.dart';
 void main() => runApp(App(page: 0));
 
 class App extends StatefulWidget {
@@ -27,6 +28,8 @@ class _MyApp extends State<App> {
         return new CastApp();
       case 2:
         return new Derivative();
+      case 3:
+        return new Tools();
       default:
     }
   }
@@ -82,7 +85,7 @@ class _MyApp extends State<App> {
                   color: _currentIndex == 1 ? Color(0xFF46c01b) : Color(0xff999999),
                 ),
               ),
-              icon: _currentIndex == 1 ? Image.asset('images/icon/flower.png', width: 32.0, height: 28.0,) : Image.asset('images/icon/flower.png', width: 32.0, height: 28.0,)
+              icon: _currentIndex == 1 ? Image.asset('images/icon/hat.png', width: 32.0, height: 28.0,) : Image.asset('images/icon/hat.png', width: 32.0, height: 28.0,)
           ),
           new BottomNavigationBarItem(
               title: new Text(
@@ -91,7 +94,16 @@ class _MyApp extends State<App> {
                   color: _currentIndex == 2 ? Color(0xFF46c01b) : Color(0xff999999),
                 ),
               ),
-              icon: _currentIndex == 2 ? Image.asset('images/icon/flower.png', width: 32.0, height: 28.0,) : Image.asset('images/icon/flower.png', width: 32.0, height: 28.0,)
+              icon: _currentIndex == 2 ? Image.asset('images/icon/socks.png', width: 32.0, height: 28.0,) : Image.asset('images/icon/socks.png', width: 32.0, height: 28.0,)
+          ),
+          new BottomNavigationBarItem(
+              title: new Text(
+                '道具',
+                style: TextStyle(
+                  color: _currentIndex == 3 ? Color(0xFF46c01b) : Color(0xff999999),
+                ),
+              ),
+              icon: _currentIndex == 3 ? Image.asset('images/icon/tools.png', width: 32.0, height: 28.0,) : Image.asset('images/icon/tools.png', width: 32.0, height: 28.0,)
           )
         ],
       ),
